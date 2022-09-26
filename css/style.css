@@ -4,9 +4,11 @@
 
 }
 
-body {
+main {
     background-color: white;
-    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+
 }
 
 header {
@@ -36,6 +38,11 @@ header {
     color: gray;
 }
 
+.image {
+    max-width: 100%;    
+    height: auto;
+}
+
 h1 {
     margin: 0;
 }
@@ -57,3 +64,23 @@ ul {
     padding-left: 0;
     list-style-position: inside;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #2ba9d3;
+    text-align: left;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+td {
+    width: 90px;
+}
+
