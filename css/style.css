@@ -78,6 +78,8 @@ th {
     background-color: #2ba9d3;
     text-align: left;
     color: white;
+    padding: 5px;
+
 }
 
 tr:nth-child(even) {
@@ -86,6 +88,7 @@ tr:nth-child(even) {
 
 td {
     width: 90px;
+    padding: 5px;
 }
 
 .onimage {
