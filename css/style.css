@@ -8,9 +8,9 @@
 
 main {
     background-color: white;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: auto;
     max-width: 1020px;
+    vertical-align: middle;
 
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 .image {
-    max-width: 100%;    
+    width: auto;    
     height: auto;
     position: relative;
 }
